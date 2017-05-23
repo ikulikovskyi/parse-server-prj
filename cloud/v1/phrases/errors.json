@@ -1,0 +1,12 @@
+{
+  "unauthorized": "Unauthorized",
+  "banned": "You have been reported by on of users and not allowed to create or comment stories. Please contact us if you have any questions",
+  "post_out_of_quote": "Out of quote, You can post only {0} stories for the last 24 hours",
+  "not_permitted": "not permitted",
+  "property_is_required": "Property {0} is required",
+  "property_is_not_valid": "Property {0} is not valid",
+  "image_data_required": "imageData is a required parameter.",
+  "title_required": "title is a required parameter",
+  "story_id_required": "storyId is a required parameter",
+  "comment_text_or_image_data_must_be": "commentText or imageData must be set"
+}

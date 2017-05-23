@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script>
+            if (document.addEventListener) {
+                document.addEventListener("DOMContentLoaded", function () {
+                    main();
+                }, false);
+            } else if (document.attachEvent) {
+                document.attachEvent("onreadystatechange", function () {
+                    if (document.readyState === "complete") {
+                        main();
+                    }
+                });
+            }
+
+            function main() {
+                window.opener.postMessage(window.location.search, window.location.origin);
+                window.close();
+            }
+        </script>
+    </head>
+    <body></body>
+</html>
